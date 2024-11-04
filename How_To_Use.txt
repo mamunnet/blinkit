@@ -1,0 +1,54 @@
+Welcome and Thank You! 🤟🏻
+
+Thank you for purchasing this awesome product! We're excited to have you on board. Follow the steps below to get started:
+
+1. Setting Up the Server
+Navigate to the server folder:
+
+cd server
+Update env file mongo uri and tokens
+npm install
+node seedScript.js
+npm start
+login to admin portal
+with 
+Email: "admin@gmail.com"
+Pass: "12345678"
+
+Now you need to update config/config.js file
+For the Admin Access once you create manually in your db
+
+Your server will start running. Be sure to check the app.js file for port instructions.
+
+2. Setting Up the Client
+With the server running, navigate to the client folder:
+
+npm install --force
+
+For iOS only:
+
+cd ios && pod install
+npm start
+Then press i for iOS or a for Android.
+3. Configuring Google Maps API Key
+You'll need to replace your Google Maps API Key in three places:
+
+AndroidManifest.xml
+AppDelegate.mm
+config.tsx
+Search for YOUR_GOOGLE_MAP_API_KEY in your code using VS Code’s universal search, and replace it with your actual API key.
+
+And that’s it—you’re all set! 🥳
+
+
+
+If getting react-native-pager-view  build fail
+Then uninstall that package
+npm uninstall react-native-pager-view
+
+If you have any questions or run into any issues, feel free to reach out:
+
+Email: iamrkp05@gmail.com
+Discord: Join us on Discord via YouTube.
+Happy coding!
+
